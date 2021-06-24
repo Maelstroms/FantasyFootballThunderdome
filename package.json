@@ -1,0 +1,34 @@
+{
+  "name": "fftdome",
+  "version": "1.0.0",
+  "description": "server to host a fantasy football league that can experiment on rule options and player picks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maelstroms/FantasyFootballThunderdome.git"
+  },
+  "author": "Grant Merrill",
+  "license": "MIT",
+  "dependencies": {
+    "berbix": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "http": "0.0.0",
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "scripts": {
+  "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/Maelstroms/FantasyFootballThunderdome/issues"
+  },
+  "homepage": "https://github.com/Maelstroms/FantasyFootballThunderdome#readme"
+}
